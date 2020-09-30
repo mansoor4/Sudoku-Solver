@@ -53,7 +53,7 @@ int canPlace(int board[100][100],int n,int row,int col,int num)
             return 0;
         }
 
-        if(board[i][row]===num)
+        if(board[i][col]===num)
         {
             return 0;
         }
